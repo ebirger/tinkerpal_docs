@@ -1,18 +1,18 @@
-API
-===
+JavaScript API
+==============
 
 Objects and methods detailed below
 
 Global
-======
+------
 
 eval
-----
+~~~~
 
 Evaluate the given String
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -25,12 +25,12 @@ Example
 +------------------+--------------------------+
 
 toInteger
----------
+~~~~~~~~~
 
 Convert the given object to an integer value
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -43,12 +43,12 @@ Example
 +------------------+--------------------------+
 
 isNaN
------
+~~~~~
 
 Tests if the object is NaN
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -62,24 +62,24 @@ Example
 +------------------+----------------------------------+
 
 meminfo
--------
+~~~~~~~
 
 Prints platform dependent memory information
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     meminfo()
 
 describe
---------
+~~~~~~~~
 
 Print object description to the console
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -92,12 +92,12 @@ Example
 +------------------+----------------------+
 
 compile
--------
+~~~~~~~
 
 Compiles a function for faster execution
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -110,27 +110,27 @@ Example
 +------------------+------------------------------+
 
 objGraph
---------
+~~~~~~~~
 
 Create a DOT graph of allocated objects
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     objGraph()
 
 File System
-===========
+-----------
 
 readFileSync
-------------
+~~~~~~~~~~~~
 
 Synchronously reads the entire contents of a file
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -143,12 +143,12 @@ Example
 +------------------+---------------+
 
 writeFileSync
--------------
+~~~~~~~~~~~~~
 
 Synchronously writes the entire contents of a file
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -163,12 +163,12 @@ Example
 +------------------+--------------------------------+
 
 readdirSync
------------
+~~~~~~~~~~~
 
 Synchronously reads the directory listing of a path
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -181,15 +181,15 @@ Example
 +------------------+------------------+
 
 Array
-=====
+-----
 
 Array (constructor)
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -230,13 +230,13 @@ Example
 +------+------+
 
 push
-----
+~~~~
 
 The arguments are appended to the end of the array, in the order in
 which they appear
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -250,12 +250,12 @@ Example
 +----------------------------+-------------------------+
 
 pop
----
+~~~
 
 The last element of the array is removed from the array and returned
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -263,12 +263,12 @@ Example
     var one = a.pop();
 
 forEach
--------
+~~~~~~~
 
 Calls cb once for each element present in the array, in ascending order
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -346,12 +346,12 @@ Example
 +------+------+
 
 indexOf
--------
+~~~~~~~
 
 Searches for searchElement in the elements of the array
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -367,13 +367,13 @@ Example
 +------------------+---------------------------------+
 
 join
-----
+~~~~
 
 Joins the string coversions of the elements of the array separated by
 occurrences of the separator
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -387,13 +387,13 @@ Example
 +------------------+--------------------------------------------------------------+
 
 map
----
+~~~
 
 Calls cb once for each element present in the array, in ascending order,
 and constructs a new Array from the results
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -472,13 +472,13 @@ Example
 +------+------+
 
 slice
------
+~~~~~
 
 Creates a new array with elements from the specified array starting from
 index 'start' up to index 'end'
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -493,12 +493,12 @@ Example
 +------------------+--------------------------------------------------------+
 
 sort
-----
+~~~~
 
 Sorts the array elements
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -540,13 +540,13 @@ Example
 +------+------+
 
 filter
-------
+~~~~~~
 
 Calls cb once for each element present in the array, in ascending order,
 and constructs a new Array from any element for which cb returned 'true'
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -625,13 +625,13 @@ Example
 +------+------+
 
 concat
-------
+~~~~~~
 
 Concatanates a given array with a list of items. If an item is an array
 itself, its members are used
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -645,15 +645,15 @@ Example
 +-------------------------------+-----------------------------------------+
 
 String
-======
+------
 
 String (constructor)
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 String Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -666,12 +666,12 @@ Example
 +------------------+---------------+
 
 split
------
+~~~~~
 
 Breaks a string into substrings based on occurences of 'separator'
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -686,12 +686,12 @@ Example
 +------------------+---------------+
 
 indexOf
--------
+~~~~~~~
 
 Search for occurences of 'searchString' in a given string
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -706,12 +706,12 @@ Example
 +------------------+------------------------+
 
 substring
----------
+~~~~~~~~~
 
 Creates a new string based on a subset of a given string
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -727,12 +727,12 @@ Example
 +------------------+-------------------------------------------------+
 
 charAt
-------
+~~~~~~
 
 Creates a new string containing the character at a position
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -746,12 +746,12 @@ Example
 +------------------+-------------------------+
 
 charCodeAt
-----------
+~~~~~~~~~~
 
 Get the ASCII value of the character at a position
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -765,12 +765,12 @@ Example
 +------------------+-------------------------+
 
 toLowerCase
------------
+~~~~~~~~~~~
 
 Convert a string to lower case characters
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -778,12 +778,12 @@ Example
     s.toLowerCase(); // 'hello world'
 
 toUpperCase
------------
+~~~~~~~~~~~
 
 Convert a string to upper case characters
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -791,15 +791,15 @@ Example
     s.toUpperCase(); // 'HELLO WORLD'
 
 Function
-========
+--------
 
 Function (constructor)
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Function Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -815,12 +815,12 @@ Example
 +-------------------------+--------------------------+
 
 call
-----
+~~~~
 
 Invoke function call
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -838,12 +838,12 @@ Example
 +-------------------+--------------------------------------------+
 
 apply
------
+~~~~~
 
 Invoke function call
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -859,13 +859,13 @@ Example
 +------------------+-----------------------------------------------------+
 
 bind
-----
+~~~~
 
 Returns a new Function object based on the current function object, but
 the 'this' value is bound to thisArg
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -880,15 +880,15 @@ Example
 +------------------+-------------------------------------------+
 
 ArrayBuffer
-===========
+-----------
 
 ArrayBuffer (constructor)
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ArrayBuffer Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -901,15 +901,15 @@ Example
 +------------------+-----------------------------------+
 
 ArrayBufferView
-===============
+---------------
 
 Int8Array (constructor)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Int8Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -943,12 +943,12 @@ Example
 +------+------+
 
 Uint8Array (constructor)
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Uint8Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -982,12 +982,12 @@ Example
 +------+------+
 
 Int16Array (constructor)
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Int16Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1021,12 +1021,12 @@ Example
 +------+------+
 
 Uint16Array (constructor)
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Uint16Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1060,12 +1060,12 @@ Example
 +------+------+
 
 Int32Array (constructor)
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 Int32Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1099,12 +1099,12 @@ Example
 +------+------+
 
 Uint32Array (constructor)
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Uint32Array Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1138,7 +1138,7 @@ Example
 +------+------+
 
 subarray
---------
+~~~~~~~~
 
 Return a partial typed array based on the typed arrayIf end is
 unspecified, the subarray contains all elements from begin to the end of
@@ -1146,7 +1146,7 @@ the TypedArray. If either begin or end are negative, they are calculated
 from the end of the array
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1162,27 +1162,27 @@ Example
 +------------------+-------------------------------------+
 
 Object
-======
+------
 
 Object (constructor)
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Object Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     var o = new Object(5);
 
 toString
---------
+~~~~~~~~
 
 The object is converted to a string
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1196,12 +1196,12 @@ Example
 +------------------+-----------------------------------------+
 
 on
---
+~~
 
 Adds a listener for the specified event
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1216,12 +1216,12 @@ Example
 +------------------+-------------------------------------+
 
 emit
-----
+~~~~
 
 Execute each of the listeners on the event
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1234,12 +1234,12 @@ Example
 +------------------+----------------------+
 
 removeAllListeners
-------------------
+~~~~~~~~~~~~~~~~~~
 
 removes listeners on a specified event, or all events
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1252,12 +1252,12 @@ Example
 +------------------+-----------------------------------------+
 
 listeners
----------
+~~~~~~~~~
 
 Returns an array with listeners for the specified event
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1270,15 +1270,15 @@ Example
 +------------------+--------------------------------+
 
 debug
-=====
+-----
 
 assert
-------
+~~~~~~
 
 Panic on mismatch between two objects
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1293,12 +1293,12 @@ Example
 +------------------+-------------------------+
 
 assert\_cond
-------------
+~~~~~~~~~~~~
 
 Panic if object is false
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1311,12 +1311,12 @@ Example
 +------------------+------------------+
 
 assert\_exception
------------------
+~~~~~~~~~~~~~~~~~
 
 Panic if calling cb() does not raise an exception
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1329,27 +1329,27 @@ Example
 +------------------+--------------------+
 
 dump\_env
----------
+~~~~~~~~~
 
 Dump global environment information to the console
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     debug.dump_env();
 
 Math
-====
+----
 
 sin
----
+~~~
 
 Compute the sine of an angle
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1362,12 +1362,12 @@ Example
 +------------------+--------------------+
 
 asin
-----
+~~~~
 
 Compute the arc sine of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1380,12 +1380,12 @@ Example
 +------------------+---------------+
 
 cos
----
+~~~
 
 Compute the cosine of an angle
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1398,12 +1398,12 @@ Example
 +------------------+--------------------+
 
 acos
-----
+~~~~
 
 Compute the arc cosine of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1416,12 +1416,12 @@ Example
 +------------------+---------------+
 
 tan
----
+~~~
 
 Compute the tangent of an angle
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1434,12 +1434,12 @@ Example
 +------------------+--------------------+
 
 atan
-----
+~~~~
 
 Compute the arc tangent of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1452,12 +1452,12 @@ Example
 +------------------+---------------+
 
 sqrt
-----
+~~~~
 
 Compute the square root of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1470,12 +1470,12 @@ Example
 +------------------+---------------+
 
 log
----
+~~~
 
 Compute the natural logarithm of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1488,12 +1488,12 @@ Example
 +------------------+---------------+
 
 exp
----
+~~~
 
 Compute the base-e exponent of a number
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1506,12 +1506,12 @@ Example
 +------------------+---------------+
 
 floor
------
+~~~~~
 
 Compute the largest integral value not greater than the argument
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1524,12 +1524,12 @@ Example
 +------------------+---------------+
 
 ceil
-----
+~~~~
 
 Compute the smallest integral value not less than the argument
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1542,12 +1542,12 @@ Example
 +------------------+---------------+
 
 round
------
+~~~~~
 
 Round to nearest integer, away from zero
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1561,12 +1561,12 @@ Example
 +------------------+---------------+
 
 abs
----
+~~~
 
 Compute the absolute value of an integer
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1579,12 +1579,12 @@ Example
 +------------------+---------------+
 
 atan2
------
+~~~~~
 
 Compute the arc tangent of two variables
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1599,12 +1599,12 @@ Example
 +------------------+---------------+
 
 pow
----
+~~~
 
 Power function
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1619,15 +1619,15 @@ Example
 +------------------+---------------+
 
 Module
-======
+------
 
 require
--------
+~~~~~~~
 
 Searches for a module and evaluates its code
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1640,15 +1640,15 @@ Example
 +------------------+-----------------------------------------+
 
 Timer
-=====
+-----
 
 setTimeout
-----------
+~~~~~~~~~~
 
 Schedule 'cb' to run in ms milliseconds
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1663,12 +1663,12 @@ Example
 +------------------+---------------------------+
 
 setInterval
------------
+~~~~~~~~~~~
 
 Schedule 'cb' to run periodically every ms milliseconds
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1683,12 +1683,12 @@ Example
 +------------------+--------------------------+
 
 clearTimeout
-------------
+~~~~~~~~~~~~
 
 Cancel timeout timer if timeout hadn't expired
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1702,12 +1702,12 @@ Example
 +------------------+----------------------+
 
 clearInterval
--------------
+~~~~~~~~~~~~~
 
 Cancel periodic timer
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1721,27 +1721,27 @@ Example
 +------------------+----------------------+
 
 getTime
--------
+~~~~~~~
 
 Get number of seconds since system startup
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     console.log('Up for ' + getTime() + ' seconds');
 
 Netif
-=====
+-----
 
 linkStatus
-----------
+~~~~~~~~~~
 
 Get link status
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1749,12 +1749,12 @@ Example
     console.log('link status: ' + e.linkStatus ? 'connected' : 'disconnected')
 
 MACAddrGet
-----------
+~~~~~~~~~~
 
 Get Interface MAC Address
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1762,12 +1762,12 @@ Example
     console.log(e.MACAddrGet());
 
 IPAddrGet
----------
+~~~~~~~~~
 
 Get Interface IP Address
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1775,12 +1775,12 @@ Example
     console.log(e.IPAddrGet());
 
 onPortChange
-------------
+~~~~~~~~~~~~
 
 Calls 'cb' when link state has changed
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1794,12 +1794,12 @@ Example
 +------------------+---------------------------------------------------------+
 
 IPConnect
----------
+~~~~~~~~~
 
 Obtain IP Address
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1813,12 +1813,12 @@ Example
 +------------------+------------------------------------------------------+
 
 IPDisconnect
-------------
+~~~~~~~~~~~~
 
 Release IP Address
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1826,12 +1826,12 @@ Example
     e.IPDisconnect();
 
 TCPConnect
-----------
+~~~~~~~~~~
 
 Connect to a TCP IP:PORT
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1849,12 +1849,12 @@ Example
 +------------------+------------------------------------------------+
 
 TCPDisconnect
--------------
+~~~~~~~~~~~~~
 
 Release TCP connection
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1862,12 +1862,12 @@ Example
     e.TCPIPConnect('192.168.1.10', 80, function() { console.log('connected'); e.TCPDisconnect() });
 
 onTCPData
----------
+~~~~~~~~~
 
 Calls 'cb' when TCP data is available
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1905,12 +1905,12 @@ Example
 +------+------+
 
 onTCPDisconnect
----------------
+~~~~~~~~~~~~~~~
 
 Calls 'cb' when TCP stream is disconnected
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1950,12 +1950,12 @@ Example
 +------+------+
 
 TCPWrite
---------
+~~~~~~~~
 
 Writes data to the TCP socket
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1971,12 +1971,12 @@ Example
 +------------------+---------------------------------------------------+
 
 TCPRead
--------
+~~~~~~~
 
 Reads data from the TCP socket
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -1987,12 +1987,12 @@ Example
     '); });
 
 ENC28J60 (constructor)
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 ENC28J60 Ethernet Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2010,12 +2010,12 @@ Example
 +------------------+-----------------------+
 
 ESP8266 (constructor)
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 ESP8266 Wi-Fi Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2032,12 +2032,12 @@ Example
 +--------------------------+----------------------------------------------+
 
 StellarisEth (constructor)
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Stellaris Ethernet Object Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2045,12 +2045,12 @@ Example
     console.log('link status: ' + enc.linkStatus() ? 'connected' : 'disconnected');
 
 NetifINET (constructor)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 INET Network Interface Object Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2064,12 +2064,12 @@ Example
 +------------------+--------------------------+
 
 LinuxPacketEth (constructor)
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Linux Packet Ethernet Object Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2083,12 +2083,12 @@ Example
 +------------------+--------------------------------+
 
 ESP8266\_WIFI (constructor)
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ESP8266 Wi-Fi Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2096,15 +2096,15 @@ Example
     esp.IPConnect();
 
 console
-=======
+-------
 
 set
----
+~~~
 
 Sets TinkerPal console to a given serial port
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2117,12 +2117,12 @@ Example
 +------------------+-----------------+
 
 log
----
+~~~
 
 Logs object to the console
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2135,15 +2135,15 @@ Example
 +------------------+---------------------+
 
 Graphics
-========
+--------
 
 Graphics (constructor)
-----------------------
+~~~~~~~~~~~~~~~~~~~~~~
 
 Graphics Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2158,12 +2158,12 @@ Example
 +------------------+-----------------+
 
 stringDraw
-----------
+~~~~~~~~~~
 
 Prints string on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2184,12 +2184,12 @@ Example
 +------------------+----------------------+
 
 circleDraw
-----------
+~~~~~~~~~~
 
 Draws a circle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2210,12 +2210,12 @@ Example
 +------------------+-----------------+
 
 circleFill
-----------
+~~~~~~~~~~
 
 Draws a circle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2236,12 +2236,12 @@ Example
 +------------------+-----------------+
 
 lineDraw
---------
+~~~~~~~~
 
 Draws a line on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2264,12 +2264,12 @@ Example
 +------------------+-----------------+
 
 rectDraw
---------
+~~~~~~~~
 
 Draws a rectangle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2292,12 +2292,12 @@ Example
 +------------------+----------------+
 
 roundRectDraw
--------------
+~~~~~~~~~~~~~
 
 Draws a round rectangle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2322,12 +2322,12 @@ Example
 +------------------+-----------------+
 
 roundRectFill
--------------
+~~~~~~~~~~~~~
 
 Draws a filled round rectangle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2352,12 +2352,12 @@ Example
 +------------------+-----------------+
 
 rectFill
---------
+~~~~~~~~
 
 Draws a filled rectangle on LCD
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2380,15 +2380,15 @@ Example
 +------------------+----------------+
 
 Canvas
-======
+------
 
 pixelDraw
----------
+~~~~~~~~~
 
 Draw a pixel on the screen
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2406,12 +2406,12 @@ Example
 +------------------+----------------+
 
 fill
-----
+~~~~
 
 Fills the canvas with a color
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2425,12 +2425,12 @@ Example
 +------------------+---------------+
 
 flip
-----
+~~~~
 
 Publishes stored buffer onto canvas
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2439,12 +2439,12 @@ Example
     l.flip();
 
 SSD1306 (constructor)
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 SSD1306 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2452,12 +2452,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 ST7920 (constructor)
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 ST7920 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2465,12 +2465,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 ST7735 (constructor)
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 ST7735 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2478,12 +2478,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 DummyCanvas (constructor)
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Dummy Canvas Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2491,12 +2491,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 SSD1329 (constructor)
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 SSD1329 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2504,12 +2504,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 SDLScreen (constructor)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 SDL screen Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2517,12 +2517,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 ILI93XX (constructor)
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 ili93xx Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2530,12 +2530,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 Dogs102x6 (constructor)
------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Dogs102x6 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2543,12 +2543,12 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 PCD8544 (constructor)
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 PCD8544 Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2556,30 +2556,30 @@ Example
     lcd.pixelDraw(10, 10, 1);
 
 MMC
-===
+---
 
 MMC (constructor)
------------------
+~~~~~~~~~~~~~~~~~
 
 MMC Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
     new MMC();
 
 SPI
-===
+---
 
 SPI (constructor)
------------------
+~~~~~~~~~~~~~~~~~
 
 SPI Object Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2593,12 +2593,12 @@ Example
 +------------------+------------------+
 
 send
-----
+~~~~
 
 Sends data via SPI bus
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2614,12 +2614,12 @@ Example
 +------------------+------------------------------------------+
 
 receive
--------
+~~~~~~~
 
 Reads data via SPI bus (dummy data is sent)
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2627,15 +2627,15 @@ Example
     var data = s.receive();
 
 GPIO
-====
+----
 
 digitalWrite
-------------
+~~~~~~~~~~~~
 
 Set the digital value of a GPIO or a number of GPIOs
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2696,12 +2696,12 @@ Example
 +------+------+
 
 digitalPulse
-------------
+~~~~~~~~~~~~
 
 Create a digital pulse on a GPIO pin for a given period
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2718,12 +2718,12 @@ Example
 +------------------+--------------------------------+
 
 digitalRead
------------
+~~~~~~~~~~~
 
 Read the digital state of a GPIO pin or a number of pins
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2737,12 +2737,12 @@ Example
 +------------------+----------------------------------------+
 
 analogWrite
------------
+~~~~~~~~~~~
 
 Set the analog value of a GPIO pin
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2759,12 +2759,12 @@ Example
 +----------------------+------------------------------------------+
 
 analogRead
-----------
+~~~~~~~~~~
 
 Read the analog value of a GPIO pin
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2777,12 +2777,12 @@ Example
 +------------------+---------------+
 
 setWatch
---------
+~~~~~~~~
 
 Calls a function whenever the GPIO pin changes state
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2868,15 +2868,15 @@ Example
 +------+------+
 
 Serial
-======
+------
 
 Serial (constructor)
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 Serial Constructor
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2916,12 +2916,12 @@ Example
 +------+------+
 
 enable
-------
+~~~~~~
 
 Enable a serial port
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2929,12 +2929,12 @@ Example
     s.enable();
 
 disable
--------
+~~~~~~~
 
 Disable a serial port
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2942,12 +2942,12 @@ Example
     s.disable();
 
 print
------
+~~~~~
 
 Prints string
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2961,12 +2961,12 @@ Example
 +------------------+---------------------------------------+
 
 write
------
+~~~~~
 
 Writes data to the serial port
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
@@ -2981,13 +2981,13 @@ Example
 +------------------+---------------------------------------------------+
 
 onData
-------
+~~~~~~
 
 Calls 'cb' when data is available on serial port. If cb is undefined,
 removes the previously set cb
 
 Example
-~~~~~~~
+^^^^^^^
 
 ::
 
