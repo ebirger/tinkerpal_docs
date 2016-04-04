@@ -6,4 +6,4 @@ Contents:
 
    api.rst
    boards_descs.rst
-   pin_mappings.rst
+   chipset_guide.rst

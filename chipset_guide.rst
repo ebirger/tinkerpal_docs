@@ -1,7 +1,7 @@
-Pin Mappings
-============
+Chipset Guide
+=============
 
-Chipsets Pin mappings detailed below
+Chipsets preperties detailed below
 
 lm4f120xl
 ---------
