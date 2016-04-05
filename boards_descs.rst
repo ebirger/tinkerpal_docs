@@ -7,6 +7,8 @@ to boards
 STM32F3Discovery
 ----------------
 
+Chipset `stm32f303xx </page/chipset_guide.html#stm32f303xx>`__
+
 LEDS
 ~~~~
 
@@ -47,6 +49,8 @@ Console
 
 EK TM4C1294XL (Tiva C Connected Launchpad)
 ------------------------------------------
+
+Chipset `tm4c1294 </page/chipset_guide.html#tm4c1294>`__
 
 LEDS
 ~~~~
@@ -117,6 +121,8 @@ Console
 HY 24'' STM32F103VET6 based board
 ---------------------------------
 
+Chipset `stm32f103vet6 </page/chipset_guide.html#stm32f103vet6>`__
+
 LEDS
 ~~~~
 
@@ -156,6 +162,8 @@ Console
 CC3200-LAUNCHXL (CC3200 Connected Launchpad)
 --------------------------------------------
 
+Chipset `cc3200 </page/chipset_guide.html#cc3200>`__
+
 LEDS
 ~~~~
 
@@ -180,6 +188,8 @@ Console
 
 TI MSP430F5529
 --------------
+
+Chipset `msp430f5529 </page/chipset_guide.html#msp430f5529>`__
 
 LEDS
 ~~~~
@@ -230,6 +240,8 @@ DOGS102X6
 
 EK LM3S6965
 -----------
+
+Chipset `lm3s6965 </page/chipset_guide.html#lm3s6965>`__
 
 Console
 ~~~~~~~
@@ -293,6 +305,8 @@ SSD1306
 EK LM4F120XL (Stellaris Launchpad)
 ----------------------------------
 
+Chipset `lm4f120xl </page/chipset_guide.html#lm4f120xl>`__
+
 LEDS
 ~~~~
 
@@ -345,6 +359,8 @@ ENC28J60
 Freescale FRDM-KL-25Z
 ---------------------
 
+Chipset `frdm\_kl25z </page/chipset_guide.html#frdm_kl25z>`__
+
 Console
 ~~~~~~~
 
@@ -356,6 +372,8 @@ Console
 
 'ARMJishu' 28'' STM32F103RB based board
 ---------------------------------------
+
+Chipset `stm32f103rbt </page/chipset_guide.html#stm32f103rbt>`__
 
 LEDS
 ~~~~
@@ -391,6 +409,8 @@ MMC
 STM32F4Discovery
 ----------------
 
+Chipset `stm32f407xx </page/chipset_guide.html#stm32f407xx>`__
+
 Console
 ~~~~~~~
 
@@ -420,6 +440,8 @@ ENC28J60
 
 EK TM4C123GXL (Tiva C Launchpad)
 --------------------------------
+
+Chipset `tm4c123g </page/chipset_guide.html#tm4c123g>`__
 
 LEDS
 ~~~~
@@ -500,6 +522,8 @@ ST7735
 RDK-IDM (LM3S6918)
 ------------------
 
+Chipset `lm3s6918 </page/chipset_guide.html#lm3s6918>`__
+
 Console
 ~~~~~~~
 
@@ -520,6 +544,8 @@ MMC
 
 STM32F429IDiscovery
 -------------------
+
+Chipset `stm32f429xx </page/chipset_guide.html#stm32f429xx>`__
 
 LEDS
 ~~~~
