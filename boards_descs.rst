@@ -47,6 +47,9 @@ Console
 | USART\_PORT2   |
 +----------------+
 
+.. figure:: _static/stm32f3discovery.jpg
+   :alt: 
+
 EK TM4C1294XL (Tiva C Connected Launchpad)
 ------------------------------------------
 
@@ -270,6 +273,9 @@ SSD1329
 | SSI0       | PC6       | PA3      | PC7      |
 +------------+-----------+----------+----------+
 
+.. figure:: _static/ek_lm3s6965.jpg
+   :alt: 
+
 Trinket Pro
 -----------
 
@@ -356,6 +362,9 @@ ENC28J60
 | SSI1       | PE3      | PF4        |
 +------------+----------+------------+
 
+.. figure:: _static/ek_lm4f120xl.jpg
+   :alt: 
+
 Freescale FRDM-KL-25Z
 ---------------------
 
@@ -369,6 +378,9 @@ Console
 +===========+
 | 0         |
 +-----------+
+
+.. figure:: _static/frdm_kl25z.jpg
+   :alt: 
 
 'ARMJishu' 28'' STM32F103RB based board
 ---------------------------------------
@@ -437,6 +449,9 @@ ENC28J60
 +==============+==========+============+
 | SPI\_PORT1   | PC5      | PB1        |
 +--------------+----------+------------+
+
+.. figure:: _static/stm32f4discovery.jpg
+   :alt: 
 
 EK TM4C123GXL (Tiva C Launchpad)
 --------------------------------
@@ -541,6 +556,9 @@ MMC
 +============+============+==========+
 | SSI1       | PE3        | PE1      |
 +------------+------------+----------+
+
+.. figure:: _static/rdk_idm.jpg
+   :alt: 
 
 STM32F429IDiscovery
 -------------------
